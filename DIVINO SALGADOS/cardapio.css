@@ -1,0 +1,379 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Hanken Grotesk', sans-serif;
+}
+
+/* Fundo vermelho */
+body {
+    background-color: #b70000; /* Cor do fundo baseada na imagem */
+    color: white; /* Cor do texto */
+    text-align: center;
+    padding-top: 80px; /* Para que o conteúdo não fique atrás do menu */
+    min-height: 200vh;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.home {
+    position: fixed; /* Fixa no topo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black; /* Tom mais escuro para contraste */
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.home a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.home a:hover {
+    color: #FFD700; /* Dourado ao passar o mouse */
+}
+
+.background {
+    position: absolute;
+    margin-top: 50px;
+    bottom: 0;
+    width: 1800px; /* Ajuste conforme necessário */
+    height: 700px; /* Deve ser igual à largura para manter o círculo */
+    background: radial-gradient(circle, #e39a09, #b70000); /* Cores do gradiente */
+    border-radius: 60%;
+    top: 600px;
+    margin-left: 850px;
+    transform: translate(-50%, -50%); /* Centraliza o círculo */
+    z-index: -5;
+}
+
+.container {
+    padding: 100px 50px;
+    text-align: left;
+}
+
+.container h1 {
+    font-weight: 500;
+    font-size: 50px;
+    left: 50px;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: -50px;
+}
+
+.container h3 {
+    font-weight: 400;
+    font-size: 20px;
+    top: 200px;
+    left: 50px;
+    width: 80%;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.container p {
+    font-weight: 500;
+    left: 50px;
+    flex-direction: column;
+    width: 30%;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.valor-pequeno {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin-right: 83%;
+    margin-top: -60px;
+    margin-left: 35px;
+}
+
+.logo-png {
+    width: 8%;
+    position: absolute;
+    margin-top: 10px;
+    top: 80px;
+    left: 1180px;
+}
+
+.link-whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    margin-left: 25px;
+    z-index: 1000;
+}
+
+.valor-medio {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin-right: 83%;
+    margin-top: -20px;
+    margin-left: 35px;
+}
+
+.valor-assados {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin-right: 80%;
+    margin-top: -20px;
+    margin-left: 35px;
+}
+
+.valor-assadostwo {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin-right: 80%;
+    margin-top: -20px;
+    margin-left: 35px;
+}
+
+.background-two {
+    position: absolute;
+    margin-top: 100px;
+    bottom: 0;
+    width: 1800px; /* Ajuste conforme necessário */
+    height: 700px; /* Deve ser igual à largura para manter o círculo */
+    background: radial-gradient(circle, #e39a09, #b70000); /* Cores do gradiente */
+    border-radius: 60%;
+    top: 1800px;
+    margin-left: 850px;
+    transform: translate(-50%, -50%); /* Centraliza o círculo */
+    z-index: -5;
+}
+
+.background-three {
+    position: absolute;
+    margin-top: 50px;
+    bottom: 0;
+    width: 1800px; /* Ajuste conforme necessário */
+    height: 700px; /* Deve ser igual à largura para manter o círculo */
+    background: radial-gradient(circle, #e39a09, #b70000); /* Cores do gradiente */
+    border-radius: 60%;
+    top: 3500px;
+    margin-left: 850px;
+    transform: translate(-50%, -50%); /* Centraliza o círculo */
+    z-index: -5;
+}
+
+.valor-pizza {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin-right: 80%;
+    margin-top: -20px;
+    margin-left: 35px;
+}
+
+.valor-pizzatwo {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin-right: 80%;
+    margin-top: -20px;
+    margin-left: 35px;
+}
+
+.background-four {
+    position: absolute;
+    margin-top: -150px;
+    bottom: 0;
+    width: 1800px; /* Ajuste conforme necessário */
+    height: 400px; /* Deve ser igual à largura para manter o círculo */
+    background: radial-gradient(circle, #e39a09, #b70000); /* Cores do gradiente */
+    border-radius: 60%;
+    top: 4600px;
+    margin-left: 850px;
+    transform: translate(-50%, -50%); /* Centraliza o círculo */
+    z-index: -5;
+}
+
+.container-four {
+    padding: 50px 50px;
+    text-align: left;
+}
+
+.container-four h1 {
+    font-weight: 500;
+    font-size: 50px;
+    left: 50px;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.container-four h3 {
+    font-weight: 400;
+    font-size: 20px;
+    top: 200px;
+    left: 50px;
+    width: 80%;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.container-four p {
+    font-weight: 500;
+    left: 50px;
+    flex-direction: column;
+    width: 30%;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .home {
+        padding: 4px;
+        left: -620px
+    }
+
+    .home a {
+        font-size: 10px;
+    }
+
+    .container h1 {
+        font-size: 27px;
+        width: 500px;
+        height: 100px;
+        margin-left: -30px;
+        margin-top: -60px;
+    }
+
+    .container h3 {
+        font-size: 13px;
+        width: 500px;
+        height: 100px;
+        margin-left: -28px;
+        margin-top: -75px;
+    }
+
+    .container p {
+        font-size: 15px;
+        width: 500px;
+        height: 100px;
+        margin-left: -28px;
+        margin-top: -45px;
+    }
+
+    .container-four h1 {
+        font-size: 27px;
+        width: 500px;
+        height: 100px;
+        margin-left: -30px;
+        margin-top: -30px;
+    }
+
+    .container-four h3 {
+        font-size: 13px;
+        width: 500px;
+        height: 100px;
+        margin-left: -28px;
+        margin-top: -75px;
+    }
+
+    .container-four p {
+        font-size: 15px;
+        width: 500px;
+        height: 100px;
+        margin-left: -28px;
+        margin-top: -45px;
+    }
+
+    .valor-pequeno {
+        width: 50px;
+        height: 150px;
+        margin-left: 15px;
+        margin-top: -40px;
+    }
+
+    .valor-medio {
+        width: 50px;
+        height: 150px;
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+
+    .valor-assados {
+        width: 50px;
+        height: 150px;
+        margin-left: 10px;
+        top: 50%;
+    }
+
+    .valor-pizza {
+        width: 50px;
+        height: 150px;
+        margin-left: 15px;
+        margin-top: -50px;
+    }
+
+    .valor-assadostwo {
+        width: 50px;
+        height: 150px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .valor-pizzatwo {
+        width: 50px;
+        height: 150px;
+        margin-left: 15px;
+        margin-top: -100px;
+    }
+
+    .background-three {
+        height: 450px;
+        top: 2600px;
+    }
+
+    .background-four {
+        height: 450px;
+        top: 1450px;
+    }
+
+    .background-five {
+        top: 305px;
+    }
+
+    .link-whatsapp img {
+        position: fixed;
+        margin-bottom: 2700px;
+        width: 50px;
+        height: 50px;
+        left: 330px;
+        top: 830px;
+    }
+
+    .logo-png {
+        width: 20%;
+        left: 300px;
+        top: 50px;
+    }
+}

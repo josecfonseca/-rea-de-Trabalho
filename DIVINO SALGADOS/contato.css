@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+/* Fundo vermelho */
+body {
+    background-color: #b70000;
+    /* Cor do fundo baseada na imagem */
+    color: white;
+    /* Cor do texto */
+    text-align: center;
+    padding-top: 80px;
+    /* Para que o conteúdo não fique atrás do menu */
+    overflow-x: hidden;
+    /* Permite rolar a página */
+}
+
+/* Navbar */
+.home {
+    position: fixed;
+    /* Mantém no topo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    /* Tom mais escuro para contraste */
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+    /* Mantém acima de outros elementos */
+}
+
+.home a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.home a:hover {
+    color: #FFD700;
+    /* Dourado ao passar o mouse */
+}
+
+.logo-png {
+    width: 8%;
+    position: absolute;
+    margin-top: 10px;
+    top: 80px;
+    left: 1180px;
+}
+
+.link-whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    margin-left: 25px;
+    z-index: 100;
+}
+
+.container-two h1 {
+    text-align: left;
+    font-weight: 500;
+    font-size: 55px;
+    position: relative;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 60px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.container-two h1 span {
+    color: #e0a800;
+}
+
+.avalia {
+    margin-top: 30px;
+    margin-left: -700px;
+}
+
+.avalia-dois {
+    margin-top: -150px;
+    margin-left: 400px;
+}
+
+.avalia-tres {
+    margin-top: 20px;
+    margin-left: -500px;
+}
+
+.avalia-quatro {
+    margin-top: -150px;
+    margin-left: 700px;
+}
+
+.avalia-cinco {
+    margin-top: 50px;
+    margin-left: -800px;
+}
+
+.avalia-seis {
+    margin-top: -130px;
+    margin-left: 500px;
+}
+
+.avalia-sete {
+    margin-top: -10px;
+    margin-left: -500px;
+}
+
+.avalia-oito {
+    margin-top: -90px;
+    margin-left: 600px;
+}
+
+.avalia-nove {
+    margin-top: -20px;
+    margin-left: -600px;
+}
+
+.avalia-dez {
+    margin-top: -28px;
+    margin-left: 500px;
+}
+
+.avalia-onze {
+    margin-top: -50px;
+    margin-left: -750px;
+}
+
+.avalia-doze {
+    margin-top: -10px;
+    margin-left: 300px;
+}
+
+.container-three h1 {
+    text-align: left;
+    font-weight: 500;
+    font-size: 50px;
+    position: relative;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 60px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.container-three h1 span {
+    color:#e39a09
+}
+
+.container-three p {
+    text-align: left;
+    font-weight: 100;
+    font-size: 25px;
+    position: relative;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 60px;
+    line-height: 1.2;
+}
+
+.background {
+    position: absolute;
+    margin-top: 50px;
+    bottom: 0;
+    width: 1800px; /* Ajuste conforme necessário */
+    height: 700px; /* Deve ser igual à largura para manter o círculo */
+    background: radial-gradient(circle, #e39a09, #b70000); /* Cores do gradiente */
+    border-radius: 60%;
+    top: 600px;
+    margin-left: 850px;
+    transform: translate(-50%, -50%); /* Centraliza o círculo */
+    z-index: -5;
+}
+
+.background-four {
+    position: absolute;
+    margin-top: -150px;
+    bottom: 0;
+    width: 1800px; /* Ajuste conforme necessário */
+    height: 400px; /* Deve ser igual à largura para manter o círculo */
+    background: radial-gradient(circle, #e39a09, #b70000); /* Cores do gradiente */
+    border-radius: 60%;
+    top: 1800px;
+    margin-left: 850px;
+    transform: translate(-50%, -50%); /* Centraliza o círculo */
+    z-index: -5;
+}
+
+.link-whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    margin-left: 25px;
+    z-index: 1000;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .home {
+        padding: 4px;
+        left: -620px
+    }
+
+    .home a {
+        font-size: 10px;
+    }
+
+    .container-two h1 {
+        font-size: 34px;
+        width: 500px;
+        height: 100px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .logo-png {
+        width: 20%;
+        left: 300px;
+        top: 50px;
+    }
+
+    .avalia {
+        margin-left: -20px;
+    }
+
+    .avalia-dois {
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .avalia-tres {
+        margin-left: -20px;
+        margin-top: 40px;
+    }
+
+    .avalia-quatro {
+        margin-left: -20px;
+        margin-top: 40px;
+    }
+
+    .avalia-cinco {
+        margin-left: -20px;
+        margin-top: 40px;
+    }
+
+    .avalia-seis {
+        margin-left: -20px;
+        margin-top: 40px;
+    }
+
+    .avalia-sete {
+        margin-left: -20px;
+        margin-top: 40px;
+    }
+
+    .avalia-oito {
+        margin-left: -20px;
+        margin-top: 40px;
+    }
+
+    .avalia-nove {
+        margin-left: -20px;
+        margin-top: 40px;
+    }
+
+    .avalia-dez {
+        margin-left: -20px;
+        margin-top: 40px;
+    }
+
+    .avalia-onze {
+        margin-left: -20px;
+        margin-top: 40px;
+    }
+
+    .avalia-doze {
+        margin-left: -20px;
+        margin-top: 40px;
+    }
+
+    .container-three h1 {
+        font-size: 34px;
+        width: 500px;
+        height: 100px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .container-three p {
+        font-size: 24px;
+        width: 380px;
+        height: 100px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .link-whatsapp img {
+        position: fixed;
+        margin-bottom: 2700px;
+        width: 50px;
+        height: 50px;
+        left: 330px;
+        top: 830px;
+    }
+
+    }

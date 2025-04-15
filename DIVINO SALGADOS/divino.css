@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    background-color: #b70000;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    overflow-x: hidden;
+}
+
+.home {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.home a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 20px;
+    text-transform: uppercase;;
+}
+
+.home a:hover {
+    color: #FFD700;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    min-height: 100vh;
+}
+
+.container h1 {
+    text-align: left;
+    font-weight: 500;
+    font-size: 65px;
+    position: relative;
+    top: -110px;
+    left: 50px;
+    width: 40%;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.divino-corte {
+    height: auto;
+    width: 400px;
+    position: absolute;
+    left: 407px;
+    margin-top: -337px;
+}
+
+.container p {
+    position: relative;
+    top: -80px;
+    left: 58px;
+    width: 40%;
+    font-size: 23px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.botao-cardapio {
+    font-family: 'Hanken Grotesk', sans-serif;
+    position: absolute;
+    left: 60px;
+    top: 430px;
+
+    width: 200px;
+    color: #000;
+    background-color: #FFC107;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block;
+    background-clip: padding-box;
+    outline: none;
+
+}
+
+.button:hover {
+    background-color: #E0A800;
+}
+
+.fundo {
+    position: absolute;
+    bottom: -50px;
+    width: 900px;
+    height: 800px;
+    background: radial-gradient(circle, #FFC107, #D84315);
+    border-radius: 50%;
+    left: 90%;
+    top: 15%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.caixa-salgados {
+    position: relative;
+    width: 600px;
+    height: auto;
+    transform: rotate(-17deg);
+    left: -12%;
+    margin-top: 40px;
+}
+
+.logo-png {
+    position: absolute;
+    width: 8%;
+    height: auto;
+    margin-left: -618px;
+    top: 80px;
+}
+
+.link-whatsapp img {
+    height: 50px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    margin-left: 40px;
+    z-index: 100;
+}
+
+.container-two {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-two h1 {
+    text-align: left;
+    font-weight: 200;
+    font-size: 75px;
+    position: relative;
+    top: -220px;
+    left: -70px;
+    width: 40%;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.container-two h2 {
+    text-align: left;
+    font-weight: 100;
+    font-size: 75px;
+    position: relative;
+    top: -140px;
+    left: -610px;
+    width: 40%;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.background {
+    position: absolute;
+    bottom: -50px;
+    width: 1500px;
+    height: 1000px;
+    background: radial-gradient(circle, #FFC107, #D84315);
+    border-radius: 50%;
+    left: 20%;
+    top: 110%;
+    transform: translateX(-50%);
+    z-index: -1;
+    border: none;
+}
+
+.bolinha {
+    position: relative;
+    width: 900px;
+    height: auto;
+    transform: rotate(15deg);
+    left: -200px;
+    margin-top: -350px;
+}
+
+.salgados-medio {
+    position: relative;
+    width: 750px;
+    height: auto;
+    transform: rotate(-7deg);
+    left: 370px;
+    margin-top: -10px;
+}
+
+.background-dois {
+    position: absolute;
+    bottom: -50px;
+    width: 1500px;
+    height: 800px;
+    background: radial-gradient(circle, #FFC107, #D84315);
+    border-radius: 50%;
+    left: 90%;
+    top: 300%;
+    transform: translateX(-50%);
+    z-index: -1;
+    border: none;
+}
+
+.container-three h1 {
+    text-align: left;
+    font-weight: 500;
+    font-size: 55px;
+    position: relative;
+    top: -650px;
+    left: 60px;
+    width: 50%;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.container-three p {
+    position: relative;
+    top: -610px;
+    left: 65px;
+    width: 45%;
+    font-size: 23px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .home {
+        padding: 4px;
+        left: -68px;
+    }
+
+    .home a {
+        font-size: 10px;
+    }
+
+    .logo-png {
+        width: 20%;
+        left: 645px;
+        top: 70px;
+    }
+
+    .divino-corte {
+        width: 46%;
+        left: 205px;
+        top: 357px
+    }
+
+    .container h1 {
+        font-size: 33px;
+        width: 70%;
+        top: 60px;
+        margin-left: -25px;
+    }
+    
+    .container p {
+        font-size: 15px;
+        width: 80%;
+        top: 95px;
+        left: 25px;
+    }
+
+    .caixa-salgados {
+        width: 80%;
+        top: -20px;
+        left: 30px;
+    }
+
+    .fundo {
+        width: 550px;
+        height: 550px;
+        top: 350px;
+        left: 280px;
+    }
+    .botao-cardapio {
+        font-size: 15px;
+        width: 240px;
+        height: 30px;
+        margin-top: -150px;
+        left: 20px;
+        padding: 5px 30px;
+    }
+
+    .container-two {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .container-two h1 {
+        font-size: 35px;
+        width: 80%;
+        left: -12px;
+        top: -350px;
+    }
+
+    .container-two h2 {
+        font-size: 35px;
+        width: 80%;
+        left: -12px;
+        top: -350px;
+    }
+
+    .bolinha {
+        width: 110%;
+        top: -370px;
+        left: -70px;
+    }
+
+    .background {
+        width: 400px;
+        height: 400px;
+        top: 990px
+    }
+
+    .container-three {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .container-three h1 {
+        font-size: 33px;
+        width: 90%;
+        left: 20px;
+        top: -620px;
+    }
+
+    .container-three p {
+        font-size: 15px;
+        width: 85%;
+        left: 20px;
+        top: -580px;
+    }
+
+    .salgados-medio {
+        width: 100%;
+        top: -10px;
+        left: -10px;
+    }
+
+    .background-dois {
+        top: 1980px;
+        width: 550px;
+        height: 350px;
+        left: 200px;
+    }
+
+    .link-whatsapp img {
+        position: fixed;
+        margin-bottom: 380px;
+        width: 50px;
+        height: 50px;
+        left: 320px;
+        top: 830px;
+    }
+
+
+}
